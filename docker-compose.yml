@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  mealie-discord-bot:
+    image: mealie-discord-bot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - "DISCORD_TOKEN=${DISCORD_TOKEN}"

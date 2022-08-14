@@ -45,7 +45,10 @@ func main() {
 
 	err := godotenv.Load()
 	if err != nil {
-		yal.Fatal("Error loading .env file")
+		if !os.IsNotExist(err) {
+			yal.Fatal("Error loading .env file")
+		}
+		yal.Warn("No .env file found")
 	}
 
 	discord, err := discordgo.New("Bot " + os.Getenv("DISCORD_TOKEN"))
