@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func msg(msg string) string {
+func WrapMessage(msg string) string {
 	return fmt.Sprintf("%s\n%s", msg, BotFooter)
 }
 
-var BotFooter = `Beep Boop, I'm a bot 🤖`
+const BotFooter = `Beep Boop, I'm a bot 🤖`
 
-var DefaultCredentials = `
+const DefaultCredentials = `
 Having trouble logging in? Try the default username and password
 
 Username: changeme@email.com
@@ -19,14 +19,14 @@ Btw, this is in the docs 👇
 [installation-checklist/#step-3-startup](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#step-3-startup)
 `
 
-var V1MigrationLinks = `
+const V1MigrationLinks = `
 Looking for information on Migration to v1?
 
 [Beta Release Discussion](https://github.com/hay-kot/mealie/discussions/1073)
 [v0.5.x to v1.0.0 Migration Guide](https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/)
 `
 
-var DockerTags = `
+const DockerTags = `
 Not sure which tag to pull?
 
 **frontend-<version>** - Latest release build of the frontend server
@@ -46,7 +46,7 @@ Not sure which tag to pull?
 [See all available tags on dockerhub](https://hub.docker.com/r/hkotel/mealie/tags)
 `
 
-var DockerFAQ = `
+const DockerFAQ = `
 Having trouble with docker?
 
 1. Is your API_URL set correctly on the Frontend container?
@@ -59,7 +59,7 @@ Having trouble with docker?
 [Docker Tags and Diagrams](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-diagram)
 `
 
-var TokenTime = `
+const TokenTime = `
 'TOKEN_TIME' is the time in hours that an auth token is valid for, it's default is set to 48 hours.
 
 You can change this value by setting the environment variable 'TOKEN_TIME' to a number of hours you want the token to be valid for.
@@ -70,4 +70,10 @@ environment:
   - TOKEN_TIME=999
 
 This will set the token to be valid for 999 hours.
+`
+
+var BotDebug = `
+**Bot Details**
+
+Version %s
 `
