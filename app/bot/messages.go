@@ -6,7 +6,7 @@ func WrapMessage(msg string) string {
 	return fmt.Sprintf("%s\n%s", msg, BotFooter)
 }
 
-const BotFooter = `Beep Boop, I'm a bot 🤖`
+const BotFooter = `Beep Boop, I'm a bot 🤖 `
 
 const DefaultCredentials = `
 Having trouble logging in? Try the default username and password
