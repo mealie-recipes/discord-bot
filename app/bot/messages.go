@@ -72,6 +72,10 @@ environment:
 This will set the token to be valid for 999 hours.
 `
 
+const ReverseProxy = `
+To expose your service to the internet, e.g. to your friends and family to access mealie, you would need a reverse proxy.
+[SWAG](https://nightly.mealie.io/documentation/community-guide/swag/) is one of the options to make that happen. 
+
 var BotDebug = `
 **Bot Details**
 
