@@ -77,3 +77,18 @@ var BotDebug = `
 
 Version %s
 `
+
+const FeatureRequest = `
+**Have a Feature Request?**
+
+Mealie uses github discussions to track feature requests.
+
+If you have an idea for a feature request please head over to the discussion page! Be sure to use the template in the Feature Requests Instructions issue to help you get started.
+
+[Feature Requests](
+
+[Feature Request Instructions](https://github.com/hay-kot/mealie/issues/317)
+[Feature Request Discussion](https://github.com/hay-kot/mealie/discussions/categories/feature-request)
+
+[Not a Feature Request? Submit an Issue!](https://github.com/hay-kot/mealie/issues/new/choose)
+`

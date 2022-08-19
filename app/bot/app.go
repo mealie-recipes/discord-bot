@@ -68,6 +68,11 @@ func NewApp(s *discordgo.Session) *app {
 			desc: "Show helpful debugging information",
 			fn:   a.HandlerStaticMessage(fmt.Sprintf(BotDebug, AppVersion)),
 		},
+		{
+			name: "mealie-feature-request",
+			desc: "Show information on how to request a feature",
+			fn:   a.HandlerStaticMessage(FeatureRequest),
+		},
 	}
 
 	return &a
