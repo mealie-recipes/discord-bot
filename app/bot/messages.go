@@ -9,7 +9,9 @@ func WrapMessage(msg string) string {
 const BotFooter = `Beep Boop, I'm a bot 🤖`
 
 const DefaultCredentials = `
-Having trouble logging in? Try the default username and password
+**Having trouble logging in?**
+
+Try the default username and password
 
 Username: changeme@email.com
 Password: MyPassword
@@ -20,14 +22,14 @@ Btw, this is in the docs 👇
 `
 
 const V1MigrationLinks = `
-Looking for information on Migration to v1?
+**Looking for information on Migration to v1?**
 
 [Beta Release Discussion](https://github.com/hay-kot/mealie/discussions/1073)
 [v0.5.x to v1.0.0 Migration Guide](https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/)
 `
 
 const DockerTags = `
-Not sure which tag to pull?
+**Not sure which tag to pull?**
 
 **frontend-<version>** - Latest release build of the frontend server
 **api-<version>** - Latest release build of the backend API server
@@ -47,7 +49,7 @@ Not sure which tag to pull?
 `
 
 const DockerFAQ = `
-Having trouble with docker?
+**Having trouble with docker?**
 
 1. Is your API_URL set correctly on the Frontend container?
 2. Have you verified your volumes are configured correctly?
@@ -76,4 +78,19 @@ var BotDebug = `
 **Bot Details**
 
 Version %s
+`
+
+const FeatureRequest = `
+**Have a Feature Request?**
+
+Mealie uses github discussions to track feature requests.
+
+If you have an idea for a feature request please head over to the discussion page! Be sure to use the template in the Feature Requests Instructions issue to help you get started.
+
+[Feature Requests](
+
+[Feature Request Instructions](https://github.com/hay-kot/mealie/issues/317)
+[Feature Request Discussion](https://github.com/hay-kot/mealie/discussions/categories/feature-request)
+
+[Not a Feature Request? Submit an Issue!](https://github.com/hay-kot/mealie/issues/new/choose)
 `
