@@ -19,6 +19,7 @@ var (
 
 func init() {
 	flag.Parse()
+	yal.Log.Colors = false;
 }
 
 func SetLogger(value string) {
