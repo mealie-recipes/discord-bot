@@ -6,6 +6,7 @@ require (
 	github.com/bwmarrin/discordgo v0.25.0
 	github.com/hay-kot/yal v0.0.2
 	github.com/joho/godotenv v1.4.0
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (

@@ -37,42 +37,22 @@ func NewApp(s *discordgo.Session) *app {
 		s: s,
 	}
 
+	conf := ReadCommands()
+
 	a.commands = []command{
-		{
-			name: "mealie-default-credentials",
-			desc: "Show default Credentials",
-			fn:   a.HandlerStaticMessage(DefaultCredentials),
-		},
-		{
-			name: "mealie-migration-links",
-			desc: "Show helpful migration links",
-			fn:   a.HandlerStaticMessage(V1MigrationLinks),
-		},
-		{
-			name: "mealie-docker-faq",
-			desc: "Show helpful Docker Problems and Solutions",
-			fn:   a.HandlerStaticMessage(DockerFAQ),
-		},
-		{
-			name: "mealie-docker-tags",
-			desc: "Show helpful Docker Tags",
-			fn:   a.HandlerStaticMessage(DockerTags),
-		},
-		{
-			name: "mealie-token-time",
-			desc: "Show information about the TOKEN_TIME variable",
-			fn:   a.HandlerStaticMessage(TokenTime),
-		},
 		{
 			name: "mealie-bot-debug",
 			desc: "Show helpful debugging information",
-			fn:   a.HandlerStaticMessage(fmt.Sprintf(BotDebug, AppVersion)),
+			fn:   a.HandlerStaticMessage(conf.WrapMessage(fmt.Sprintf(BotDebug, AppVersion))),
 		},
-		{
-			name: "mealie-feature-request",
-			desc: "Show information on how to request a feature",
-			fn:   a.HandlerStaticMessage(FeatureRequest),
-		},
+	}
+
+	for _, v := range conf.Commands {
+		a.commands = append(a.commands, command{
+			name: v.Command,
+			desc: v.Description,
+			fn:   a.HandlerStaticMessage(conf.WrapMessage(v.Content)),
+		})
 	}
 
 	return &a
@@ -160,7 +140,7 @@ func (a *app) HandlerStaticMessage(msg string) DiscordHandler {
 		s.InteractionRespond(i.Interaction, &discordgo.InteractionResponse{
 			Type: discordgo.InteractionResponseChannelMessageWithSource,
 			Data: &discordgo.InteractionResponseData{
-				Content: WrapMessage(msg),
+				Content: msg,
 			},
 		})
 	}
