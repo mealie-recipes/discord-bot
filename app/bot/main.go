@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	AppVersion     = "0.0.1"
+	AppVersion     = "0.0.2"
 	LogLevel       = flag.String("log", "info", "log level (debug, info, warn, error)")
 	RemoveCommands = flag.Bool("rmcmd", true, "Remove all commands after shutdowning or not")
 	GuildID        = flag.String("guild", "", "Test guild ID. If not passed - bot registers commands globally")
