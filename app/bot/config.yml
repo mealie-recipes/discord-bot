@@ -19,7 +19,7 @@ commands:
     content: |
       **Looking for information on Migration to v1?**
 
-      [Beta Release Discussion](https://github.com/hay-kot/mealie/discussions/1073)
+      [Beta Release Discussion](https://github.com/mealie-recipes/mealie/discussions/1073)
       [v0.5.x to v1.0.0 Migration Guide](https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/)
       [Migrating from other V1 versions](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#migrating-from-other-v1-versions)
 
@@ -86,7 +86,7 @@ commands:
 
       [Feature Requests](
 
-      [Feature Request Instructions](https://github.com/hay-kot/mealie/issues/317)
-      [Feature Request Discussion](https://github.com/hay-kot/mealie/discussions/categories/feature-request)
+      [Feature Request Instructions](https://github.com/mealie-recipes/mealie/issues/317)
+      [Feature Request Discussion](https://github.com/mealie-recipes/mealie/discussions/categories/feature-request)
 
-      [Not a Feature Request? Submit an Issue!](https://github.com/hay-kot/mealie/issues/new/choose)
+      [Not a Feature Request? Submit an Issue!](https://github.com/mealie-recipes/mealie/issues/new/choose)
