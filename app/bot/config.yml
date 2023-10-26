@@ -21,6 +21,7 @@ commands:
 
       [Beta Release Discussion](https://github.com/hay-kot/mealie/discussions/1073)
       [v0.5.x to v1.0.0 Migration Guide](https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/)
+      [Migrating from other V1 versions](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#migrating-from-other-v1-versions)
 
   - command: "mealie-docker-faq"
     description: "Show helpful Docker Problems and Solutions"
