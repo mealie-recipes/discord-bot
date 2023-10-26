@@ -80,13 +80,10 @@ commands:
     content: |
       **Have a Feature Request?**
 
-      Mealie uses github discussions to track feature requests.
+      Mealie uses GitHub discussions to track feature requests.
 
-      If you have an idea for a feature request please head over to the discussion page! Be sure to use the template in the Feature Requests Instructions issue to help you get started.
+      If you have an idea for a feature request please head over to the discussion page!
 
-      [Feature Requests](
-
-      [Feature Request Instructions](https://github.com/mealie-recipes/mealie/issues/317)
-      [Feature Request Discussion](https://github.com/mealie-recipes/mealie/discussions/categories/feature-request)
-
+      [Create a Feature Request](https://github.com/mealie-recipes/mealie/discussions/new?category=feature-request)
+      [Open Feature Requests](https://github.com/mealie-recipes/mealie/discussions/categories/feature-request)
       [Not a Feature Request? Submit an Issue!](https://github.com/mealie-recipes/mealie/issues/new/choose)
