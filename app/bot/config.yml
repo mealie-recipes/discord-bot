@@ -28,9 +28,8 @@ commands:
     content: |
       **Having trouble with docker?**
 
-      1. Is your API_URL set correctly on the container?
-      2. Have you verified your volumes are configured correctly?
-      3. Have you reviewed the installation checklist?
+      1. Have you verified your volumes are configured correctly?
+      2. Have you reviewed the installation checklist?
 
       **Links**
       [Docker Compose Example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/)
