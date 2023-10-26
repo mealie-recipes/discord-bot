@@ -27,14 +27,14 @@ commands:
     content: |
       **Having trouble with docker?**
 
-      1. Is your API_URL set correctly on the Frontend container?
+      1. Is your API_URL set correctly on the container?
       2. Have you verified your volumes are configured correctly?
       3. Have you reviewed the installation checklist?
 
       **Links**
       [Docker Compose Example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/)
       [Checklist](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/)
-      [Docker Tags and Diagrams](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-diagram)
+      [Docker Tags](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
 
   - command: "mealie-docker-tags"
     description: "Show helpful docker tags information"
