@@ -42,21 +42,24 @@ commands:
     content: |
       **Not sure which tag to pull?**
 
-      **frontend-<version>** - Latest release build of the frontend server
-      **api-<version>** - Latest release build of the backend API server
+      *Note: Since v1.0.0-RC1.1, Docker images have moved to GitHub*
+
+      **<version>** - Version-specific build of Mealie.
+      **v1.0.0-RC1.1** - Currently the latest image of Mealie
+      **latest** - Latest stable release image of Mealie. *Note: This tag is not yet available, it will be available with the v1 stable release*
+      **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
 
       *See the [docker compose example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/) for most current tags for running Mealie*
 
-      **frontend-nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
-      **api-nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
-
       ❗Depreciated Tags❗
 
-      **latest** - Legacy tag used for the previously combined servers last updated (v0.5.5)
+      **frontend-v1.0.0beta-x** and **api-v1.0.0beta-x** - These are the tags for the latest beta release of the frontend and api docker containers, respectively.
+      **frontend-nightly** and **api-nightly** - These are the tags for the nightly release of the frontend and api docker containers, respectively.
 
       ---
 
-      [See all available tags on dockerhub](https://hub.docker.com/r/hkotel/mealie/tags)
+      [See all available tags on GitHub](https://github.com/mealie-recipes/mealie/pkgs/container/mealie)
+      [Mealie's tags documentation](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
 
   - command: "mealie-token-time"
     description: "Show information about the TOKEN_TIME variable"
