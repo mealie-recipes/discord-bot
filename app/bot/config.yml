@@ -28,9 +28,8 @@ commands:
     content: |
       **Having trouble with docker?**
 
-      1. Have you verified your volumes are configured correctly?
-      2. Have you reviewed the installation checklist?
-      3. Have you mapped the right container port?
+      1. Have you reviewed the installation checklist?
+      2. Have you mapped the right container port?
 
       **Links**
       [Docker Compose Example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/)
