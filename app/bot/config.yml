@@ -7,7 +7,7 @@ commands:
 
       Try the default username and password
 
-      Username: changeme@email.com
+      Username: changeme@example.com
       Password: MyPassword
 
       Btw, this is in the docs 👇
@@ -19,43 +19,46 @@ commands:
     content: |
       **Looking for information on Migration to v1?**
 
-      [Beta Release Discussion](https://github.com/hay-kot/mealie/discussions/1073)
+      [Beta Release Discussion](https://github.com/mealie-recipes/mealie/discussions/1073)
       [v0.5.x to v1.0.0 Migration Guide](https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/)
+      [Migrating from other V1 versions](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#migrating-from-other-v1-versions)
 
   - command: "mealie-docker-faq"
     description: "Show helpful Docker Problems and Solutions"
     content: |
       **Having trouble with docker?**
 
-      1. Is your API_URL set correctly on the Frontend container?
-      2. Have you verified your volumes are configured correctly?
-      3. Have you reviewed the installation checklist?
+      1. Have you reviewed the installation checklist?
+      2. Have you mapped the right container port?
 
       **Links**
       [Docker Compose Example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/)
       [Checklist](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/)
-      [Docker Tags and Diagrams](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-diagram)
+      [Docker Tags](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
 
   - command: "mealie-docker-tags"
     description: "Show helpful docker tags information"
     content: |
       **Not sure which tag to pull?**
 
-      **frontend-<version>** - Latest release build of the frontend server
-      **api-<version>** - Latest release build of the backend API server
+      *Note: Since v1.0.0-RC1.1, Docker images have moved to GitHub*
+
+      **<version>** - Version-specific build of Mealie.
+      **v1.0.0-RC1.1** - Currently the latest image of Mealie
+      **latest** - Latest stable release image of Mealie. *Note: This tag is not yet available, it will be available with the v1 stable release*
+      **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
 
       *See the [docker compose example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/) for most current tags for running Mealie*
 
-      **frontend-nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
-      **api-nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
-
       ❗Depreciated Tags❗
 
-      **latest** - Legacy tag used for the previously combined servers last updated (v0.5.5)
+      **frontend-v1.0.0beta-x** and **api-v1.0.0beta-x** - These are the tags for the latest beta release of the frontend and api docker containers, respectively.
+      **frontend-nightly** and **api-nightly** - These are the tags for the nightly release of the frontend and api docker containers, respectively.
 
       ---
 
-      [See all available tags on dockerhub](https://hub.docker.com/r/hkotel/mealie/tags)
+      [See all available tags on GitHub](https://github.com/mealie-recipes/mealie/pkgs/container/mealie)
+      [Mealie's tags documentation](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
 
   - command: "mealie-token-time"
     description: "Show information about the TOKEN_TIME variable"
@@ -76,13 +79,10 @@ commands:
     content: |
       **Have a Feature Request?**
 
-      Mealie uses github discussions to track feature requests.
+      Mealie uses GitHub discussions to track feature requests.
 
-      If you have an idea for a feature request please head over to the discussion page! Be sure to use the template in the Feature Requests Instructions issue to help you get started.
+      If you have an idea for a feature request please head over to the discussion page!
 
-      [Feature Requests](
-
-      [Feature Request Instructions](https://github.com/hay-kot/mealie/issues/317)
-      [Feature Request Discussion](https://github.com/hay-kot/mealie/discussions/categories/feature-request)
-
-      [Not a Feature Request? Submit an Issue!](https://github.com/hay-kot/mealie/issues/new/choose)
+      [Create a Feature Request](https://github.com/mealie-recipes/mealie/discussions/new?category=feature-request)
+      [Open Feature Requests](https://github.com/mealie-recipes/mealie/discussions/categories/feature-request)
+      [Not a Feature Request? Submit an Issue!](https://github.com/mealie-recipes/mealie/issues/new/choose)
