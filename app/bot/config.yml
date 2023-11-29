@@ -44,7 +44,7 @@ commands:
       *Note: Since v1.0.0-RC1.1, Docker images have moved to GitHub*
 
       **<version>** - Version-specific build of Mealie.
-      **v1.0.0-RC1.1** - Currently the latest image of Mealie
+      **v1.0.0-RC2** - Currently the latest image of Mealie
       **latest** - Latest stable release image of Mealie. *Note: This tag is not yet available, it will be available with the v1 stable release*
       **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
 
