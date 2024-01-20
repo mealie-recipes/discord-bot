@@ -41,10 +41,9 @@ commands:
     content: |
       **Not sure which tag to pull?**
 
-      *Note: Since v1.0.0-RC1.1, Docker images have moved to GitHub*
+      *Note: Since v1.0.0, Docker images are on both Github and Dockerhub*
 
       **<version>** - Version-specific build of Mealie.
-      **v1.0.0-RC1.1** - Currently the latest image of Mealie
       **latest** - Latest stable release image of Mealie. *Note: This tag is not yet available, it will be available with the v1 stable release*
       **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
 
