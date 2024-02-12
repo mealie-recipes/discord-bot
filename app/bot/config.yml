@@ -85,3 +85,19 @@ commands:
       [Create a Feature Request](https://github.com/mealie-recipes/mealie/discussions/new?category=feature-request)
       [Open Feature Requests](https://github.com/mealie-recipes/mealie/discussions/categories/feature-request)
       [Not a Feature Request? Submit an Issue!](https://github.com/mealie-recipes/mealie/issues/new/choose)
+
+  - command: "mealie-code-formatting"
+    description: "Show how to use backticks for code formatting on Discord"
+    content: |
+      When pasting code or log snippets (including docker-compose files) it's very important to maintain the original formatting of them; primarily for ease of use, but also because the whitespace can be meaningful.
+
+      The best way to do that is to wrap the text inside 3 backticks. Backtick (`) is the character generally to the left of the 1 on your keyboard.
+      You would type 3 backticks, then a new line, then paste in your code, then go to another new line and enter another 3 backticks.
+
+      ```
+      This is
+      an example of what
+      the end result might look like.
+      ```
+
+      Oh, and you can also edit prior messages so you can add this retrospectively to your previous messages if needed!
