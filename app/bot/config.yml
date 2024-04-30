@@ -59,6 +59,17 @@ commands:
       [See all available tags on GitHub](https://github.com/mealie-recipes/mealie/pkgs/container/mealie)
       [Mealie's tags documentation](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
 
+  - command: "mealie-getting-started"
+    description: "Show helpful links for getting started with a fresh instance of Mealie"
+    content: |
+      **Getting Started with Mealie**
+
+      Mealie is self-hosted, meaning you need to install it on your own server. Here are some helpful links to get you started:
+
+      [Installation Checklist](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/): step-by-step guide to installing Mealie
+      [FAQ](https://nightly.mealie.io/documentation/getting-started/faq/): solutions to common first-time-setup issues, and answers to common questions
+      [Configuration Options](https://nightly.mealie.io/documentation/getting-started/installation/backend-config/): how to configure Mealie to your liking
+
   - command: "mealie-token-time"
     description: "Show information about the TOKEN_TIME variable"
     content: |
