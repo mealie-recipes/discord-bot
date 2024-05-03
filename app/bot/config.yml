@@ -41,11 +41,11 @@ commands:
     content: |
       **Not sure which tag to pull?**
 
-      *Note: Since v1.0.0, Docker images are on both Github and Dockerhub*
+      *Note: Since v1.0.0, Docker images are on both Github and Docker Hub*
 
       **<version>** - Version-specific build of Mealie.
-      **latest** - Latest stable release image of Mealie. *Note: This tag is not yet available, it will be available with the v1 stable release*
-      **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave)
+      **latest** - Latest stable release image of Mealie.
+      **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave).
 
       *See the [docker compose example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/) for most current tags for running Mealie*
 
@@ -58,6 +58,17 @@ commands:
 
       [See all available tags on GitHub](https://github.com/mealie-recipes/mealie/pkgs/container/mealie)
       [Mealie's tags documentation](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
+
+  - command: "mealie-getting-started"
+    description: "Show helpful links for getting started with a fresh instance of Mealie"
+    content: |
+      **Getting Started with Mealie**
+
+      Mealie is self-hosted, meaning you need to install it on your own server. Here are some helpful links to get you started:
+
+      [Installation Checklist](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/): step-by-step guide to installing Mealie
+      [FAQ](https://nightly.mealie.io/documentation/getting-started/faq/): solutions to common first-time-setup issues, and answers to common questions
+      [Configuration Options](https://nightly.mealie.io/documentation/getting-started/installation/backend-config/): how to configure Mealie to your liking
 
   - command: "mealie-token-time"
     description: "Show information about the TOKEN_TIME variable"
