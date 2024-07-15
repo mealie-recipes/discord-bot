@@ -12,16 +12,16 @@ commands:
 
       Btw, this is in the docs 👇
 
-      [installation-checklist/#step-3-startup](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#step-3-startup)
+      [installation-checklist/#step-3-startup](<https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#step-3-startup>)
 
   - command: "mealie-migration-links"
     description: "Show helpful migration links"
     content: |
       **Looking for information on Migration to v1?**
 
-      [Beta Release Discussion](https://github.com/mealie-recipes/mealie/discussions/1073)
-      [v0.5.x to v1.0.0 Migration Guide](https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/)
-      [Migrating from other V1 versions](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#migrating-from-other-v1-versions)
+      [Beta Release Discussion](<https://github.com/mealie-recipes/mealie/discussions/1073>)
+      [v0.5.x to v1.0.0 Migration Guide](<https://nightly.mealie.io/documentation/getting-started/migrating-to-mealie-v1/>)
+      [Migrating from other V1 versions](<<https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/>#migrating-from-other-v1-versions>)
 
   - command: "mealie-docker-faq"
     description: "Show helpful Docker Problems and Solutions"
@@ -32,9 +32,9 @@ commands:
       2. Have you mapped the right container port?
 
       **Links**
-      [Docker Compose Example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/)
-      [Checklist](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/)
-      [Docker Tags](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
+      [Docker Compose Example](<https://nightly.mealie.io/documentation/getting-started/installation/sqlite/>)
+      [Checklist](<https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/>)
+      [Docker Tags](<https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/>#docker-tags)
 
   - command: "mealie-docker-tags"
     description: "Show helpful docker tags information"
@@ -47,7 +47,7 @@ commands:
       **latest** - Latest stable release image of Mealie.
       **nightly** - Nightly build fresh off the mealie-next branch (if you're feeling brave).
 
-      *See the [docker compose example](https://nightly.mealie.io/documentation/getting-started/installation/sqlite/) for most current tags for running Mealie*
+      *See the [docker compose example](<https://nightly.mealie.io/documentation/getting-started/installation/sqlite/>) for most current tags for running Mealie*
 
       ❗Depreciated Tags❗
 
@@ -56,8 +56,8 @@ commands:
 
       ---
 
-      [See all available tags on GitHub](https://github.com/mealie-recipes/mealie/pkgs/container/mealie)
-      [Mealie's tags documentation](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/#docker-tags)
+      [See all available tags on GitHub](<https://github.com/mealie-recipes/mealie/pkgs/container/mealie>)
+      [Mealie's tags documentation](<https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/>#docker-tags)
 
   - command: "mealie-getting-started"
     description: "Show helpful links for getting started with a fresh instance of Mealie"
@@ -66,9 +66,9 @@ commands:
 
       Mealie is self-hosted, meaning you need to install it on your own server. Here are some helpful links to get you started:
 
-      [Installation Checklist](https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/): step-by-step guide to installing Mealie
-      [FAQ](https://nightly.mealie.io/documentation/getting-started/faq/): solutions to common first-time-setup issues, and answers to common questions
-      [Configuration Options](https://nightly.mealie.io/documentation/getting-started/installation/backend-config/): how to configure Mealie to your liking
+      [Installation Checklist](<https://nightly.mealie.io/documentation/getting-started/installation/installation-checklist/>): step-by-step guide to installing Mealie
+      [FAQ](<https://nightly.mealie.io/documentation/getting-started/faq/>): solutions to common first-time-setup issues, and answers to common questions
+      [Configuration Options](<https://nightly.mealie.io/documentation/getting-started/installation/backend-config/>): how to configure Mealie to your liking
 
   - command: "mealie-token-time"
     description: "Show information about the TOKEN_TIME variable"
@@ -93,9 +93,9 @@ commands:
 
       If you have an idea for a feature request please head over to the discussion page!
 
-      [Create a Feature Request](https://github.com/mealie-recipes/mealie/discussions/new?category=feature-request)
-      [Open Feature Requests](https://github.com/mealie-recipes/mealie/discussions/categories/feature-request)
-      [Not a Feature Request? Submit an Issue!](https://github.com/mealie-recipes/mealie/issues/new/choose)
+      [Create a Feature Request](<https://github.com/mealie-recipes/mealie/discussions/new?category=feature-request>)
+      [Open Feature Requests](<https://github.com/mealie-recipes/mealie/discussions/categories/feature-request>)
+      [Not a Feature Request? Submit an Issue!](<https://github.com/mealie-recipes/mealie/issues/new/choose>)
 
   - command: "mealie-code-formatting"
     description: "Show how to use backticks for code formatting on Discord"
